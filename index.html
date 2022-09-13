@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container w-50 border border-secondary mt-5 bg-light fs-3 rounded">
+        <h1 class="mt-5  text-center">Employee Registration form</h1>
+        <label for="u1">Name:</label> <br>
+        <input class="mt-2 rounded" type="text" id="u1" placeholder="first name">
+        <input class="ms-5 rounded" type="text" id="u1" placeholder="Last name"> <br>
+        <label  class="mt-4" for="u2" >Email Address</label> <br>
+        <input class="mt-2 rounded" type="email" id="u2" placeholder="eg:myname@gmail.com"> <br>
+        <label class="mt-4" for="u3 ">Contact number:</label>  <br>
+        <input type="text" class="mt-2 rounded" > <br>
+        <label class="mt-4" for="u4">Address:</label> <br>
+        <textarea class="mt-2 rounded" name="address" id="u4" cols="50" rows="5"></textarea> <br>
+        <label class="mt-4" for="u5">City:</label> <br>
+        <input class="mt-2 rounded" type="text" id="u5" placeholder="city"> <br>
+        <label class="mt-4" for="u6">State:</label> <br>
+       <select name="state" id="u6" class="rounded">
+        <option value="a1">kerala</option>
+        <option value="a2">TamilNadu</option>
+        <option value="a3">Assam</option>
+        <option value="a4">Andhra Pradhesh</option>
+        <option value="a5">Gujarat</option>
+        <option value="a6">Bihar</option>
+       </select> <br>
+       <label class="mt-4" for="u7">Pin code:</label> <br>
+       <input class="mt-2 rounded" type="text"> <br>
+       <label class="mt-4" for="u8">Applying for position:</label> <br>
+        <select class="mt-2 rounded" name="" id="u8">
+            <option value="b0">Choose</option>
+            <option value="b1">Software Engineer</option>
+            <option value="b2">Web Developer</option>
+            <option value="b3">Information Security</option>
+            <option value="b4">System Administrator</option>
+            <option value="b4">Database Administrator</option>
+            <option value="b5">Network Engineer</option>
+
+        </select> <br>
+        <label for="u9" class="mt-4">Salary:</label> <br>
+         <select class="rounded mt-2" name="salary" id="u9"> <br>
+            <option value="c1">Choose</option>
+            <option value="c2">Rs.15,000-25,000</option>
+            <option value="c3">Rs.25,000-30,000</option>
+            <option value="c4">Rs.30,000-35,000</option>
+            <option value="">Rs.35,000-40,000</option>
+
+        </select> <br>
+        <label class="rounded mt-4" for="u10">Cover letter or Additional information:</label> <br>
+        <textarea class="rounded mt-2" name="cover" id="u10" cols="30" rows="5"></textarea> <br>
+        <label class="mt-4 rounded" for="u9"> Upload Resume</label> <br>
+        <button class="color-secondary mt-2 rounded">Choose file </button> <br>
+<button type="submit" class="btn btn-success rounded fs-3 mt-4 form-control mb-5">Submit</button>        
+    </div>
+    <p  class="fs-5 mt-5 mb-3 ">----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+
+    <div class="container border border-secondary w-40 mt-5 rounded ">
+<center>
+            <img src="./imagebootsrtap/instagram.png" alt="" >
+
+</center>  
+<center>
+    <input type="text" placeholder="Phone number,username or email" class="w-75 p-3 rounded fs-3 bg-light" > <br>
+    <input type="password" placeholder="Password" class="rounded mt-4 w-75 p-3 bg-light fs-3"> <br>
+    <button type="submit" class="btn btn-primary w-75 mt-4 p-3 fs-3 rounded">Login</button> <br>
+    <label for="" class="mt-5 fs-3 mb-3">Forgot Password?</label>
+
+</center>       </div>
+<div class="container w-50 border border-secondary  mt-5 rounded">
+<p  class="fs-3 text-center ">Don't have an account?</p>
+<p style="color:blue ;" class="fs-3   text-center"> Sign up</p>
+</div>
+<p class="text-center fs-3 mt-4">Get the app</p>
+    <img src="./imagebootsrtap/appstore.png" alt=""  style="width:200px; margin-left: 1200px;">
+    <img src="./imagebootsrtap/googleplay.png" alt="" style="margin-left: 30px; width: 200px; ">
+
+    <p  class="fs-5 mt-5 mb-3 ">----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+<div class="container w-75 border border-secondary bg-secondary ">
+<center>
+        <img src="./imagebootsrtap/fednet-logo-round.jpg" alt="" class="mt-3">
+
+</center>   
+<p style="text-align:center ;" class="fs-3 ">Need an Account?</p> 
+<center>
+    <a style="color:black ;text-decoration: none;" class="fs-3">Sign up?</a>   
+
+</center>
+<center>
+    <input style="padding-left: 25px;" type="text" placeholder="User ID" class="fs-3 color-secondary w-50 rounded mt-3 "> <br>
+    <input style="padding-left: 25px;" type="password" placeholder="Password" class="fs-3 rounded mt-5 w-50  "> <br>
+    <input style="padding-left:25px" type="text" placeholder="Mobile number including country code" class="mt-5 w-50 fs-3 rounded">
+</center>
+  <br>
+<center>
+      <input type="email" placeholder="Email" class="fs-3 w-50 rounded mt-4" style="padding-left:25px ;"> <br>
+
+</center> 
+<label style="margin-left:315px ;" for="" class="fs-3  mt-2">Verification Code</label>
+<center>
+    <input style="margin-left:-329px ; " type="text" placeholder="Check Email for Verification code" class="fs-3 mt-3 w-40 rounded"> <br>
+<input type="text" placeholder="Account Number" class="fs-3 mt-5 w-50 rounded" style="padding-left: 25px;"> <br>
+<button type="submit" class="btn btn-primary fs-3 mt-4 w-50">Login</button>
+<p class="fs-3 mt-5">Forgot Password?</p>
+</center>  
+
+
+</div>
+ </body>
+</html>
